@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | enviromental exploration</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -51,13 +51,13 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/MyWebBuild.loader.js";
+      var buildUrl = "";
+      var loaderUrl = "Build.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/MyWebBuild.data.br",
-        frameworkUrl: buildUrl + "/MyWebBuild.framework.js.br",
-        codeUrl: buildUrl + "/MyWebBuild.wasm.br",
+        dataUrl: "Build.data.br",
+        frameworkUrl: "Build.framework.js.br",
+        codeUrl: "Build.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MyCompany",
         productName: "enviromental exploration",
